@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  /* body {
+    background: #232b3e;
+  } */
+  :root {
+    --background-base: #232b3e;
+    --background-hover: rgba(0,0,0,0.1);
+  }
+  body {
+    background: linear-gradient(135deg,var(--background-base) 22px,var(--background-hover) 0,var(--background-hover) 24px,transparent 0,transparent 67px,var(--background-hover) 0,var(--background-hover) 69px,transparent 0),linear-gradient(225deg,var(--background-base) 22px,var(--background-hover) 0,var(--background-hover) 24px,transparent 0,transparent 67px,var(--background-hover) 0,var(--background-hover) 69px,transparent 0) 0 64px;
+    background-color: var(--background-base);
+    background-size: 64px 128px;
+  }
+  .justify {
+      margin-top: 15%;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+  }
+  .d-flex {
+    display: flex;
+  }
+  .bg-red {
+    background: red;
+  }
+  .box {
+    width: 320px;
+    background: #1a202e;
+  }
+  .shadow {
+    box-shadow: 0px 0px 7px 1px;
+  }
+  
+  .element-card-style {
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      place-content: center;
+      align-items: center;
+  }
+  .bg-img {
+    background-size: cover;
+    background-position: center;
+    height: 99px;
+    width: 64px;
+  }
+  .font-size {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .margintop {
+    margin-top: 18px;
+  }
+  .font-p {
+    color: #C6CBCB;
+    font-size: 14px;
+    letter-spacing: normal;
+    font-weight: bold;
+  }
+  .margintop2 {
+    margin-top: 9px;
+  }
+  input {
+    padding: 16px;
+    width: 75%;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    border-left: none;
+    border-bottom: ;
+    border-right: none;
+    color: #C6CBCB;
+  }
+  .passwo {
+    color: #C6CBCB;
+    font-size: 11px; 
+    font-weight: normal;
+    margin-right: 60px; 
+    letter-spacing: 1px;
+    margin-top: 8px;
+  }
+  .checkbox {
+    background: transparent;
+    border: solid 2px;
+    border-radius: -50%;
+    -webkit-appearance: none;
+    height: 8px;
+    margin: 2px;
+    padding: 8px;
+    width: 8px;
+    margin-top: 18px;
+    margin-left: -80%;
+    cursor: pointer;
+  }
+  .Remember {
+    color: white;
+    font-size: 14px;
+    margin-left: -40%;
+    margin-top: -7%;
+    cursor: pointer;
+  }
+  .forgot {
+    color: white;
+    font-size: 14px;
+    margin-left: 50%;
+    margin-top: -5%;
+    cursor: pointer;
+  }
+  .button {
+    background: rgb(92,119,255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    cursor: pointer;
+    width: 85%;
+    margin-top: 22px;
+    font-size: 15px;
+    letter-spacing: normal;
+  }
+  .final {
+    color: #C6CBCB;
+    font-size: 15px;
+    letter-spacing: normal;
+    margin-top: 20px;
+  }
+  .cursor {
+    cursor: pointer;
+  }
+  .final2 {
+    color: #C6CBCB;
+    font-size: 15px;
+    letter-spacing: normal;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  .white {
+    color: white;
+    text-decoration: none;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');

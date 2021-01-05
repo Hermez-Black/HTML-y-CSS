@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+  }
+  .d-flex {
+    display: flex;
+  }
+  .justify {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: var(--space)
+  }
+  body {
+    background: #232b3e;
+  }
+  .forfor {
+    color: white;
+    font-size: 350%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-top: var(--top);
+  }
+  .h2 {
+    color: white;
+    font-size: 200%;
+     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+  }
+  :root {
+    --background-card: #1a202e;
+    --top: 30px; 
+    --space: 9%;
+  }
+  .input {
+    background-color: var(--background-card);
+    border-radius: 100px;
+    border: none;
+    height: 40px;
+    width: 400px; 
+    margin-top: var(--top);
+    color: white;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
